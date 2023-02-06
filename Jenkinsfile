@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("Checkout Code") {
             steps {
-                git url: "https://github.com/your-repo/k8s-manifests.git"
+                git url: "https://github.com/dilfuza97/DNS.git"
             }
         }
 
