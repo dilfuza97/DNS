@@ -15,7 +15,7 @@ pipeline {
                     clusterName: "my-eks-cluster"
                 ]) {
                     sh "kubectl apply -f ingress.yaml"
-                    sh "kubectl apply -f external-name-service.yaml"
+                    sh "kubectl apply -f service.yaml"
                 }
             }
         }
